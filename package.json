@@ -7,7 +7,7 @@
   "main": "./app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oneheka/React-Discord-Business-Card"
+    "url": "https://github.com/cookielast/React-Discord-Business-Card"
   },
   "private": true,
   "dependencies": {
