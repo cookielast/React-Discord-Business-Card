@@ -1,0 +1,11 @@
+@import '../../assets/scss/util/mixins.scss';
+
+.circle {
+    background-color: var(--hk-color-brand);
+    filter: blur(430px);
+    position: fixed;
+    bottom: -170px;
+    right: -170px;
+    @include box(508px);
+    @include circle();
+}

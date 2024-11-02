@@ -1,0 +1,18 @@
+@import '../../assets/scss/util/mixins.scss';
+
+.block {
+    width: 600px;
+    background: var(--hk-profile-base);
+    backdrop-filter: blur(var(--hk-spacing-8));
+    padding: var(--hk-spacing-8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    @include block-center();
+    @include circle(var(--hk-spacing-8));
+    @include flex(column, flex-start, var(--hk-spacing-8))
+}
+
+@media screen and (max-width: 696px) {
+    .block {
+        width: calc(100vw - 94px);
+    }
+}
