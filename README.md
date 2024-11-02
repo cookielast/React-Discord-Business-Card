@@ -14,3 +14,5 @@ To run the application, type `npm run start` in the console.
 1. Type `npm run build` in the console.
 2. Start the perpetual process via the `pm2 start node app/index.js` command, after which the website will be hovered on port 3000.
 3. Populate the nginx [config](https://stackoverflow.com/questions/64797676/how-to-set-up-proxying-past-nginx-for-create-react-app-running-on-localhost3000) for the website port.
+
+Based on - https://github.com/oneheka/React-Discord-Business-Card
