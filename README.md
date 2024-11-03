@@ -15,4 +15,12 @@ To run the application, type `npm run start` in the console.
 2. Start the perpetual process via the `pm2 start node app/index.js` command, after which the website will be hovered on port 3000.
 3. Populate the nginx [config](https://stackoverflow.com/questions/64797676/how-to-set-up-proxying-past-nginx-for-create-react-app-running-on-localhost3000) for the website port.
 
+# Additionally
+## To change the color of the circle and nickname from below
+1. Go to `src/assets/scss/variables`
+2. Open the `themes.scss` file using any code editor
+3. Change the color in RGBA mode in the line `--hk-color-brand` to your e.g. `--hk-color-brand: rgba(0, 97, 62, 0.8);`
+4. To compile the site, type `npm run build`
+5. Done, now launch your website on hosting
+
 Based on - https://github.com/oneheka/React-Discord-Business-Card
